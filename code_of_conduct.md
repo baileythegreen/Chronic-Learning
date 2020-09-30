@@ -36,7 +36,7 @@ Examples of unacceptable behavior by community members include:
 
 Community members asked to stop any inappropriate behavior are expected to comply immediately.
 
-If a community member engages in behavior that violates this code of conduct, the Project Lead(s) may take any action they deem appropriate.
+If a community member engages in behavior that violates this code of conduct, the Project Lead(s) may take any action they deem appropriate, including warning the offender or blocking them on GitHub and other platforms.
 
 Thank you for helping make this a welcoming, friendly community for all.
 
