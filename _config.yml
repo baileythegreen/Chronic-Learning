@@ -1,0 +1,11 @@
+baseurl: "chroniclearning.org"
+title: "Chronic Learning"
+repository: baileythegreen/Chronic-Learning
+github: [metadata]
+description: "An open-access repository of educational materials."
+
+
+#google_analytics: [Google Analytics tracking ID]
+
+plugins:
+ - jekyll-github-metadata
