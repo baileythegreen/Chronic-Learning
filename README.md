@@ -1,8 +1,3 @@
----
-title: "Home"
-permalink: /
----
-
 # Chronic-Learning
 
 ## Vision Statement
