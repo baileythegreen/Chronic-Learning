@@ -1,0 +1,17 @@
+---
+---
+/* import statements */
+/* layout styles */
+
+/* all media */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Ariel, sansserif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fafafa;
+    background: #00035b;
+    background-attachment: fixed;
+    background-size: cover;
+}
