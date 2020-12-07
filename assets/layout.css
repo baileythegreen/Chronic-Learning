@@ -18,14 +18,44 @@ body {
     overflow-x: hidden;
 }
 
-header {
+header,
+footer {
+    width: 100%;
+}
 
+header {
+    margin-bottom: 0;
 }
 
 #banner {
     
 }
 
+topnav {
+    
+}
+
+topnav.a,
+footer.a {
+    text-decoration: none;
+}
+
+topnav.a:hover,
+footer.a:hover {
+    background: #3e464d;
+    color: #c9c3c9;
+}
+
+topnav.a:after,
+footer.a:after {
+    color: #3e464d;
+    background: #c9c3c9;
+}
+
 div {
     margin: 2cm;
+}
+
+footer {
+    border-top: 3px solid #3e464d;
 }
