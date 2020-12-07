@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chronic Learning"
-permalink: /
+permalink: /home
 ---
 
 # Chronic Learning
