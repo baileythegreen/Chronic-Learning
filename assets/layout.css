@@ -40,12 +40,12 @@ topnav {
     
 }
 
-topnav.a,
-footer.a {
+a.topnav,
+a.footer {
     text-decoration: none;
 }
 
-topnav.a {
+a.topnav {
     color: #3e464d;
     background: #c9c3c9;
     font-size: 1.5rem;
@@ -53,14 +53,14 @@ topnav.a {
     margin: .5rem;
 }
 
-topnav.a:hover,
-footer.a:hover {
+a.topnav:hover,
+a.footer:hover {
     background: #3e464d;
     color: #c9c3c9;
 }
 
-topnav.a:after,
-footer.a:after {
+a.topnav:after,
+a.footer:after {
     color: #3e464d;
     background: #c9c3c9;
 }
