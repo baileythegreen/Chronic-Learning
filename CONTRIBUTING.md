@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /contribute
+---
+
 # Table of contents
 
 [Ways to contribute](#ways-to-contribute)
