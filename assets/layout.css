@@ -31,6 +31,11 @@ header {
     
 }
 
+#content {
+    margin-top: 0;
+    padding-top: 1cm;
+}
+
 topnav {
     
 }
@@ -41,6 +46,8 @@ footer.a {
 }
 
 topnav.a {
+    color: #3e464d;
+    background: #c9c3c9;
     font-size: 1.5rem;
     padding: .5rem;
     margin: .5rem;
