@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "thehuntsman";
+    src: url('fonts/the-huntsman-regular.ttf');
+    font-weight: regular;
+    font-style: regular;
+}
+
+@font-face {
+    font-family: "fredericka";
+    src: url('fonts/fredericka-the-great-regular.ttf');
+    font-weight: regular;
+    font-style: regular;
+}
+
+@font-face {
+    font-family: "Vollkorn";
+    src: url('https://fonts.googleapis.com/css?family=Vollkorn');
+}
+
+
+@font-face {
+    font-family: "literata";
+    src: url('https://fonts.googleapis.com/css?family=Literata');
+}
+
+@font-face {
+    font-family: "petrona";
+    src: url('https://fonts.googleapis.com/css?family=Petrona');
+}
+
+@font-face {
+    font-family: "literata";
+    src: url('https://fonts.googleapis.com/css?family=Literata');
+}
+
+@font-face {
+    font-family: "literata";
+    src: url('https://fonts.googleapis.com/css?family=Literata');
+}
+
