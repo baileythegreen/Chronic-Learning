@@ -53,3 +53,25 @@
   background-color: #c9c3c9;
 }
 
+
+/* small screens */
+@media only screen and (max-width: 768px) {
+.dropbtn,
+.dropbtn:after {
+    text-decoration: none;
+    color: #c9c3c9;
+    font-family: "Vollkorn";
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+.dropbtn:hover {
+    text-decoration: none;
+    color: #3e464d;
+    background: #c9c3c9;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+}
