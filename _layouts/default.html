@@ -9,29 +9,58 @@
           href="assets/fonts.css"
           type="text/css">
     </link>
+    <link rel="stylesheet"
+          href="assets/dropdown.css"
+          type="text/css">
+    </link>
 </head>
 <body>
+<div id="page-container">
 <header>
 <!--div/-->
     <img id="banner" src="../assets/images/book_banner.png" alt="A bunch of books on a bookshelf." width="100%">
 </header>
 <div class="topnav">
 <!--div-->
-     <a id="title" href="{{ site.baseurl }}">Chronic Learning</a>
+     <a id="title" href="{{ site.url }}">Chronic Learning</a>
 <!--/div-->
 <div class="links">
      <!--a class="topnav" href="{{ site.baseurl }}/home">Home</a-->
-     <a id="link" href="{{ site.baseurl }}/materials">Materials</a>
+     <div class="dropdown" >
+     <a class="dropbtn">Materials</a>
+         <div class="dropdown-content">
+                 <a href="{{ site.baseurl }}/materials/science">Science</a>
+                 <a href="{{ site.baseurl }}/materials/programming">Programming</a>
+                 <a href="{{ site.baseurl }}/materials/general">General</a>
+         </div>
+     </div>
      <a id="link" href="{{ site.baseurl }}/contribute">Get involved</a>
      <a id="link" href="{{ site.baseurl }}/contact">Contact us</a>
 </div>
 </div>
 <div class="content">
   {{ content }}
+<br>
+<br>
 </div>
 <br>
-<footer>
-    <a class="footer" href="https://github.com/baileythegreen/Chronic-Learning">View on GitHub</a>
-</footer>
+<div class="footer">
+    <a class="footer" href="https://github.com/baileythegreen/Chronic-Learning">
+    <img style="vertical-align: middle;
+                border-radius: 50%"
+         src="/assets/images/github_logo.png"
+         title="View on GitHub"
+         width="50"></a>
+    <!--View on GitHub</a-->
+
+    <a class="footer" href="https://twitter.com/ChronicLearning">
+    <img style="vertical-align: middle;
+                border-radius: 50%"
+         src="/assets/images/twitter_logo.png"
+         title="Follow @ChronicLearning"
+         width="50"></a>
+    <!--Follow @ChronicLearning</a-->
+</div>
+</div>
 </body>
 </html>

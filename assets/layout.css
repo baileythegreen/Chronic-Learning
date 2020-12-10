@@ -8,7 +8,7 @@
 body {
     margin:0;
     font-family: "Vollkorn"; /*, 'Helvetica Neue', Helvetica, Ariel, sansserif; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
     color: #3e464d; /* fafafa; */
@@ -16,6 +16,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  width 100%;
+  margin: 0;
 }
 
 #title {
@@ -42,8 +49,13 @@ header {
     margin-bottom: 0;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 #banner {
-    margin-bottom: 0; 
+    margin: 0; 
 }
 
 #content {
@@ -109,13 +121,13 @@ div {
     margin: 0cm 2cm 0cm 2cm;
 }
 
-footer {
+div.footer {
     color: #c9c3c9;
     background: #3e464d;
     padding: 1rem;
     border-top: 3px solid #3e464d;
     text-align: center;
-    margin-top 2rem;
+    margin: 0cm 0cm 0cm 0cm;
 }
 a.footer,
 a.footer:after {
@@ -123,14 +135,14 @@ a.footer:after {
     color: #c9c3c9;
     font-family: "Vollkorn";
     font-size: 1.2rem; 
-    padding: .5rem; 
+    padding: .5rem 0rem .5rem 0rem; 
+    margin: 0px 10px 5px;
 }
 
 a.footer:hover {
-    color: #3e464d;
-    background: #c9c3c9;
     font-size: 1.2rem;
-    padding: .5rem; 
+    padding: .5rem 0rem .5rem 0rem;
+    margin: 0px 10px 5px;
 }
 
 /*  small screens */
@@ -145,7 +157,7 @@ div.topnav {
     background: #3e464d;
     color: #c9c3c9;
     width: 100%;
-    padding: 0em 0em .5em 0em;
+    padding: 0em 0em 1em 0em;
     display: block;
     text-align: center;
 }
@@ -212,14 +224,14 @@ a.footer:after {
     color: #c9c3c9; 
     font-family: "Vollkorn";
     font-size: 1.2rem;
-    padding: .5rem;
+    padding: .5rem 0rem .5rem 0rem;
+    margin: 0px 10px 5px;
 }
 
 a.footer:hover {
-    color: #3e464d;
-    background: #c9c3c9;
     font-size: 1.2rem;
-    padding: .5rem;
+    padding: .5rem 0rem .5rem 0rem;
+    margin: 0px 10px 5px;
 }
 
 }
@@ -273,11 +285,11 @@ div.links {
     padding: 1rem;
 }
 
-footer { 
+div.footer { 
     color: #c9c3c9; 
     background: #3e464d;
     padding: 1rem;
     text-align: center;
-    margin-top 2rem;
+    margin: 0cm 0cm 0cm 0cm;
 }
 }
