@@ -15,17 +15,20 @@
     </link>
 </head>
 <body>
-<div id="page-container">
+<div id="page-container" style="width: 100%">
 <!--header-->
 {% include header.html %}
-<div id="content">
-  {{ content }}
+<div id="profile">
+<img id="profile_img" src="{{ site.baseurl }}/assets/images/bailey.jpeg">
+{{ content }}
+<div style="clear: both"></div>
 <br>
 <br>
 </div>
 <br>
 <!--footer-->
 {% include footer.html %}
+
 </div>
 </body>
 </html>

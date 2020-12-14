@@ -50,8 +50,10 @@ header {
 }
 
 footer {
-    position: absolute;
+    clear: both;
     bottom: 0;
+    position: absolute;
+    margin: 0;
 }
 
 #banner {
@@ -59,11 +61,26 @@ footer {
 }
 
 #content {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding-top: 0cm;
-    max-width: 15cm;
+    max-width: 30cm;
+    margin: 0rem 0cm 2rem 0cm;
+    padding: 2rem 4cm 2rem 4cm;
     font-family: "Vollkorn";
+}
+
+#profile {
+    margin: 0rem 0cm 2rem 0cm;
+    padding: 2rem 2cm 2rem 2cm;
+    font-family: "Vollkorn";
+    max-width: 30%
+    vertical-align: top;
+}
+
+#profile_img {
+    float: right;
+    padding-top: 2rem;
+    padding-bottom: 2cm;
+    padding-left: 2cm;
+    vertical-align: top;
 }
 
 div.topnav {
@@ -122,6 +139,7 @@ div {
 }
 
 div.footer {
+    clear: both;
     color: #c9c3c9;
     background: #3e464d;
     padding: 1rem;
@@ -214,9 +232,9 @@ a.footer:after {
 } */
 
 #content {
-    margin-top: 2rem;
+    margin: 0rem 0cm 0rem 0cm;
+    padding: 2rem 2cm 2rem 2cm;
     padding-top: 2rem;
-    margin-bottom: 5rem;
     max-width: 15cm;
     font-family: "Vollkorn";
 }
@@ -289,6 +307,7 @@ div.links {
 }
 
 div.footer { 
+    clear: both;
     color: #c9c3c9; 
     background: #3e464d;
     padding: 1rem;

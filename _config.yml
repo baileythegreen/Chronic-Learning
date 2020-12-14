@@ -1,9 +1,9 @@
-url: https://chroniclearning.org
+#url: https://chroniclearning.org
 title: "Chronic Learning"
 repository: baileythegreen/Chronic-Learning
 github: [metadata]
 description: "An open-access repository of educational materials."
-
+url: http://0.0.0.0:4000/
 
 #google_analytics: [Google Analytics tracking ID]
 
