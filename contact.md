@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /contact
+permalink: /about/contact
 ---
 
 Have an idea for new materials, or want to discuss something else? Get in touch!
