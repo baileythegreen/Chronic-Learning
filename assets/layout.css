@@ -29,6 +29,8 @@ body {
     font-family: "fredericka";
     font-size: 5rem;
     color: #c9c3c9;
+    margin-top: 0;
+    vertical-align: center;
     /*margin-right: 2rem;*/
     padding-left: 0rem;
     margin-left: 0rem;
@@ -38,6 +40,8 @@ body {
 a,
 a:after {
     color: #3e464d;
+    margin: 0;
+    padding: 0;
 }
 
 header,
@@ -87,6 +91,8 @@ div.topnav {
     margin-left: 0;
     margin-top: -1.3em; 
     margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
     background: #3e464d;
     color: #c9c3c9;
     width: 100%;
@@ -99,6 +105,7 @@ div.links {
     font-family: "Vollkorn";
     color: #c9c3c9;
     display: inline-block;
+    vertical-align: bottom;
 }
 
 #link,
@@ -135,7 +142,7 @@ a.footer:after {
 }
 */
 div {
-    margin: 0cm 2cm 0cm 2cm;
+    margin: 0cm 0cm 0cm 0cm;
 }
 
 div.footer {
@@ -189,7 +196,7 @@ div.topnav {
     color: #c9c3c9;
     display: block;
     /*text-align: center;*/
-    margin: .5rem 0rem 0rem .5rem;
+    margin: .5rem 0rem -2rem 0rem;
 }
 
 div.links {
@@ -197,7 +204,7 @@ div.links {
     color: #c9c3c9;
     display: inline-block;
     text-align: center;
-    margin: .5rem 0rem 0rem 0rem;
+    margin: 0rem 0rem -1rem 0rem;
 }
 
 #link,
@@ -206,7 +213,7 @@ div.links {
     color: #c9c3c9;
     font-family: "Vollkorn";
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: .5rem;
     margin: 0rem;
 }
 
